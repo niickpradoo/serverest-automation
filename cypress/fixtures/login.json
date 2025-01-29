@@ -1,0 +1,8 @@
+{
+  "input_email": "[data-testid='email']",
+  "input_password": "[data-testid='senha']",
+  "button_login": "[data-testid='entrar']",
+  "message_welcome": "h1",
+  "message_error":".alert > :nth-child(2)",
+  "button_logout": "[data-testid='logout']"
+}
