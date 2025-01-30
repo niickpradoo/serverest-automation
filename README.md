@@ -2,20 +2,20 @@
 
 ## Overview
 
-This project was created as part of the Automation Challenge for Ambev. The goal is to develop automated end-to-end (E2E) tests for the specified frontend application and its API using the Cypress framework with JavaScript.
+This project was created as part of the Automation Challenge for AMBEV. The goal is to develop automated end-to-end (E2E) tests for the specified frontend application and its API using the Cypress framework with JavaScript.
 
 ## Project Structure
 
 The project is organized as follows:
 
-    ```bash
+    
     cypress/
     |--tests/
     |---api/
     |----.cy.js
     |---e2e/
     |----.cy.js
-    ```
+    
 
 - **api/**: Contains automated API tests.
 - **e2e/**: Contains automated end-to-end tests for the frontend application.
@@ -49,26 +49,26 @@ To run this project, you need to have the following installed on your machine:
 
 To run the frontend tests, use the following command:
 
-    ```bash
+
     npx cypress open
-    ```
+
 This command will open the Cypress Test Runner, where you can select the tests which you want to run.
 
 ### Using CLI to run API Tests 
 
 To run the API tests, execute the following command in the terminal:
 
-    ```bash
-    npx cypress run --spec 'cypress/tests/api/*.js'
-    ```
+
+    npx cypress run --spec 'cypress/tests/api/login.cy.js'
+
 
 ### Using CLI to run Front-End Tests 
 
 To run the Front-End tests, execute the following command in the terminal:
 
-    ```bash
-    npx cypress run --spec 'cypress/tests/e2e/*.js'
-    ```
+
+    npx cypress run --spec 'cypress/tests/e2e/login.cy.js.js'
+
 
 ## Generating Reports with Mochawesome
 
@@ -98,5 +98,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgments
 
-[Cypress Documentation](https://docs.cypress.io/)
-[Serverest Documentation](https://serverest.dev/)
+    - [Cypress Documentation](https://docs.cypress.io/)
+    
+    - [Serverest Documentation](https://serverest.dev/)
