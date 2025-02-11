@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project was created as part of the Automation Challenge for AMBEV. The goal is to develop automated end-to-end (E2E) tests for the specified frontend application and its API using the Cypress framework with JavaScript.
+This project was created as part of the Automation Challenge for Guia Motéis. The goal is to develop automated end-to-end (E2E) tests for the specified frontend application and its API using the Cypress framework with JavaScript.
 
 ## Project Structure
 
